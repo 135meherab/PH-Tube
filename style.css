@@ -1,0 +1,44 @@
+.card-pro-img
+{
+    width: 35%;
+    height: 35px;
+    border-radius: 50%;
+}
+#item-container .cards{
+    width: 50%;
+}
+#item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.varify
+{
+    font-size: 1%;
+}
+.no-content{
+    text-align: center;
+}
+.tube-thum{
+    width: 100%;
+    height: 200px;
+}
+.thum-pic{
+    position: relative;
+}
+.time-text{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+    background-color: white;
+    color: white;
+    font-size: 16px;
+}
+.time-text .card-text {
+    color: white;
+}
+#category-id{
+    display: none;
+}
