@@ -37,7 +37,7 @@ const drawing = () => {
             const noItem = document.createElement("div");
             noItem.classList.add("no-content");
             noItem.innerHTML=`
-            <img src="images/icon.png" alt="">
+            <img src="images/icon.png" alt="...">
             <h1>Opps !! There is no</h1>
             <h1>content here</h1>
             `;
